@@ -1,5 +1,5 @@
 {
-  "name": "@jmondi/oauth2-server",
+  "name": "@malang-dev/oauth2-server",
   "version": "3.4.1",
   "type": "module",
   "author": "Jason Raimondi <jason@raimondi.us>",

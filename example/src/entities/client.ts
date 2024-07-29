@@ -1,5 +1,5 @@
 import { OAuthClient as ClientModel, OAuthScope as ScopeModel } from "@prisma/client";
-import { GrantIdentifier, OAuthClient } from "@jmondi/oauth2-server";
+import { GrantIdentifier, OAuthClient } from "@malang-dev/oauth2-server";
 
 import { Scope } from "./scope.js";
 

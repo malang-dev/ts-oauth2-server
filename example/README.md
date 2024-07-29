@@ -2,7 +2,7 @@
 
 ## Want a better example?
 
-See the [ts-oauth2-server-example](https://github.com/jasonraimondi/ts-oauth2-server-example) repository for a more full example.
+See the [ts-oauth2-server-example](https://github.com/malang-dev/ts-oauth2-server-example) repository for a more full example.
 
 ## Getting Started
 

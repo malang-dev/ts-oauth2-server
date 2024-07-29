@@ -25,7 +25,7 @@ handleExpressError(e: unknown | OAuthException, res: Express.Response): void
 ## Example
 
 ```ts
-import { requestFromExpress, handleExpressResponse, handleExpressError } from "@jmondi/oauth2-server/express";
+import { requestFromExpress, handleExpressResponse, handleExpressError } from "@malang-dev/oauth2-server/express";
 import express from 'express';
 
 const app = express();

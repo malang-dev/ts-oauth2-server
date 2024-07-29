@@ -22,7 +22,7 @@ You can customize the `aud` field by passing `aud`.
 You can add additional properties to the encoded access token by implementing the `extraTokenFields` method in your `JwtService` class.
 
 ```ts
-import { JwtService } from "@jmondi/oauth2-server";
+import { JwtService } from "@malang-dev/oauth2-server";
 
 export class MyCustomJwtService extends JwtService {
   extraTokenFields(params: ExtraAccessTokenFieldArgs) {

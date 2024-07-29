@@ -149,7 +149,7 @@ export class AuthorizationServer {
       // if anyone hits this exception, or knows how we can refactor to make the compiler
       // happy without this piece of code, please open a ticket or pr, thanks for the help!
       //
-      // https://github.com/jasonraimondi/ts-oauth2-server/issues
+      // https://github.com/malang-dev/ts-oauth2-server/issues
       throw OAuthException.internalServerError();
     }
 

@@ -9,11 +9,11 @@ import CodeBlock from "@theme/CodeBlock";
 
 # Getting Started
 
-[![JSR](https://jsr.io/badges/@jmondi/oauth2-server)](https://jsr.io/@jmondi/oauth2-server)
-[![GitHub package.json version](https://img.shields.io/github/package-json/v/jasonraimondi/ts-oauth2-server?style=flat-square)](https://github.com/jasonraimondi/ts-oauth2-server/releases/latest)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/jasonraimondi/ts-oauth2-server/build-and-test.yml?branch=main&style=flat-square)](https://github.com/jasonraimondi/ts-oauth2-server)
+[![JSR](https://jsr.io/badges/@malang-dev/oauth2-server)](https://jsr.io/@malang-dev/oauth2-server)
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/malang-dev/ts-oauth2-server?style=flat-square)](https://github.com/malang-dev/ts-oauth2-server/releases/latest)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/malang-dev/ts-oauth2-server/build-and-test.yml?branch=main&style=flat-square)](https://github.com/malang-dev/ts-oauth2-server)
 [![Test Coverage](https://img.shields.io/codeclimate/coverage/jasonraimondi/typescript-oauth2-server?style=flat-square)](https://codeclimate.com/github/jasonraimondi/typescript-oauth2-server/test_coverage)
-[![NPM Downloads](https://img.shields.io/npm/dt/@jmondi/oauth2-server?label=npm%20downloads&style=flat-square)](https://www.npmjs.com/package/@jmondi/oauth2-server)
+[![NPM Downloads](https://img.shields.io/npm/dt/@malang-dev/oauth2-server?label=npm%20downloads&style=flat-square)](https://www.npmjs.com/package/@malang-dev/oauth2-server)
 
 ## Introduction
 
@@ -31,7 +31,7 @@ This section provides a high-level overview of setting up the OAuth2 server.
 
 ### Installation
 
-Choose your preferred package manager to install @jmondi/oauth2-server:
+Choose your preferred package manager to install @malang-dev/oauth2-server:
 
 <Installation />
 
@@ -82,7 +82,7 @@ app.post("/token", async (req: Express.Request, res: Express.Response) => {
 The `/authorize` endpoint is a front-channel endpoint that issues authorization codes, which can be exchanged for access tokens.
 
 ```ts
-import { requestFromExpress } from "@jmondi/oauth2-server/express";
+import { requestFromExpress } from "@malang-dev/oauth2-server/express";
 
 app.get("/authorize", async (req: Express.Request, res: Express.Response) => {
   try {

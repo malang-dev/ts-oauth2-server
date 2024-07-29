@@ -1,5 +1,5 @@
 import { PrismaClient } from "@prisma/client";
-import { DateInterval, generateRandomToken, OAuthAuthCode, OAuthAuthCodeRepository } from "@jmondi/oauth2-server";
+import { DateInterval, generateRandomToken, OAuthAuthCode, OAuthAuthCodeRepository } from "@malang-dev/oauth2-server";
 
 import { AuthCode } from "../entities/auth_code.js";
 import { Client } from "../entities/client.js";

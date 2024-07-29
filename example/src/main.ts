@@ -3,8 +3,8 @@ import "dotenv/config";
 import { PrismaClient } from "@prisma/client";
 import bodyParser from "body-parser";
 import Express from "express";
-import { AuthorizationServer, DateInterval } from "@jmondi/oauth2-server";
-import { handleExpressError, handleExpressResponse } from "@jmondi/oauth2-server/express";
+import { AuthorizationServer, DateInterval } from "@malang-dev/oauth2-server";
+import { handleExpressError, handleExpressResponse } from "@malang-dev/oauth2-server/express";
 
 import { AuthCodeRepository } from "./repositories/auth_code_repository.js";
 import { ClientRepository } from "./repositories/client_repository.js";

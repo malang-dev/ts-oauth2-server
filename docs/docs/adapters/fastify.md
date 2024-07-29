@@ -26,7 +26,7 @@ handleFastifyError(e: unknown | OAuthException, reply: FastifyReply): void
 ## Example
 
 ```ts
-import { requestFromFastify, handleFastifyReply, handleFastifyError } from "@jmondi/oauth2-server/fastify";
+import { requestFromFastify, handleFastifyReply, handleFastifyError } from "@malang-dev/oauth2-server/fastify";
 import fastify from 'fastify'
 
 const app = fastify()

@@ -1,4 +1,4 @@
-import { ExtraAccessTokenFieldArgs, JwtService } from "@jmondi/oauth2-server";
+import { ExtraAccessTokenFieldArgs, JwtService } from "@malang-dev/oauth2-server";
 
 export class MyCustomJwtService extends JwtService {
   extraTokenFields({ user, client }: ExtraAccessTokenFieldArgs) {

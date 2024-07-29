@@ -4,7 +4,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 import tailwindPlugin from "./tailwind-config.cjs";
 
 const config: Config = {
-  title: "@jmondi/oauth2-server",
+  title: "@malang-dev/oauth2-server",
   plugins: [tailwindPlugin],
   tagline:
     "Standards-Compliant OAuth 2.0 Server in TypeScript, Utilizing JWT and Proof Key for Code Exchange (PKCE)",
@@ -28,13 +28,13 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/jasonraimondi/ts-oauth2-server/tree/main/",
+          editUrl: "https://github.com/malang-dev/ts-oauth2-server/tree/main/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/jasonraimondi/ts-oauth2-server/tree/main/",
+          editUrl: "https://github.com/malang-dev/ts-oauth2-server/tree/main/",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -70,17 +70,17 @@ const config: Config = {
           position: "right",
         },
         {
-          href: "https://github.com/jasonraimondi/ts-oauth2-server",
+          href: "https://github.com/malang-dev/ts-oauth2-server",
           label: "GitHub",
           position: "right",
         },
         // {
-        //   href: "https://www.npmjs.com/package/@jmondi/oauth2-server",
+        //   href: "https://www.npmjs.com/package/@malang-dev/oauth2-server",
         //   label: "NPM",
         //   position: "right",
         // },
         // {
-        //   href: "https://jsr.io/@jmondi/oauth2-server",
+        //   href: "https://jsr.io/@malang-dev/oauth2-server",
         //   label: "JSR",
         //   position: "right",
         // },

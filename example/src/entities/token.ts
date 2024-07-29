@@ -4,7 +4,7 @@ import {
   OAuthClient as ClientModel,
   User as UserModel,
 } from "@prisma/client";
-import { OAuthToken } from "@jmondi/oauth2-server";
+import { OAuthToken } from "@malang-dev/oauth2-server";
 
 import { Client } from "./client.js";
 import { Scope } from "./scope.js";

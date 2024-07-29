@@ -4,7 +4,7 @@ import {
   OAuthScope as ScopeModel,
   User as UserModel,
 } from "@prisma/client";
-import { OAuthAuthCode, CodeChallengeMethod } from "@jmondi/oauth2-server";
+import { OAuthAuthCode, CodeChallengeMethod } from "@malang-dev/oauth2-server";
 
 import { Client } from "./client.js";
 import { Scope } from "./scope.js";

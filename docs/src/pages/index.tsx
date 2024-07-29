@@ -170,7 +170,7 @@ export function Adapters() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title={`@jmondi/oauth2-server`} description={siteConfig.tagline}>
+    <Layout title={`@malang-dev/oauth2-server`} description={siteConfig.tagline}>
       <header className="text-white bg-gradient-to-br from-[--ifm-color-primary] to-[--ifm-color-primary-darkest]">
         <div className="container py-14 md:py-24">
           <div className="flex items-center justify-center gap-6">
@@ -255,21 +255,21 @@ export default function Home() {
         <SectionTitle>Source</SectionTitle>
         <div className="flex justify-center gap-14">
           <a
-            href="https://github.com/jasonraimondi/ts-oauth2-server"
+            href="https://github.com/malang-dev/ts-oauth2-server"
             className="w-20 text-[--ifm-heading-color] hover:text-[--ifm-heading-color]"
             title="Find us on https://github.com"
           >
             <GithubLogo />
           </a>
           <a
-            href="https://www.npmjs.com/package/@jmondi/oauth2-server"
+            href="https://www.npmjs.com/package/@malang-dev/oauth2-server"
             className="w-28 text-[--ifm-heading-color] hover:text-[--ifm-heading-color]"
             title="Find us on https://npmjs.com"
           >
             <NPMLogo />
           </a>
           <a
-            href="https://jsr.io/@jmondi/oauth2-server"
+            href="https://jsr.io/@malang-dev/oauth2-server"
             className="w-24 text-[--ifm-heading-color] hover:text-[--ifm-heading-color]"
             title="Find us on https://jsr.io"
           >

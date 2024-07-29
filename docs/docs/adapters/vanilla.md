@@ -29,7 +29,7 @@ responseToVanilla(oauthResponse: OAuthResponse): Response
 ## Example
 
 ```ts
-import { requestFromVanilla, responseToVanilla } from "@jmondi/oauth2-server/vanilla";
+import { requestFromVanilla, responseToVanilla } from "@malang-dev/oauth2-server/vanilla";
 
 import { Hono } from 'hono'
 const app = new Hono()

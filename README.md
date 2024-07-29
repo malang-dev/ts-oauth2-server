@@ -1,12 +1,10 @@
 # TypeScript OAuth2.0 Server
 
-[![JSR](https://jsr.io/badges/@jmondi/oauth2-server)](https://jsr.io/@jmondi/oauth2-server)
-[![GitHub package.json version](https://img.shields.io/github/package-json/v/jasonraimondi/ts-oauth2-server?style=flat-square)](https://github.com/jasonraimondi/ts-oauth2-server/releases/latest)
-[![GitHub Workflow Status]( https://img.shields.io/github/actions/workflow/status/jasonraimondi/ts-oauth2-server/build-and-test.yml?branch=main&style=flat-square)](https://github.com/jasonraimondi/ts-oauth2-server)
-[![Test Coverage](https://img.shields.io/codeclimate/coverage/jasonraimondi/typescript-oauth2-server?style=flat-square)](https://codeclimate.com/github/jasonraimondi/typescript-oauth2-server/test_coverage)
-[![NPM Downloads](https://img.shields.io/npm/dt/@jmondi/oauth2-server?label=npm%20downloads&style=flat-square)](https://www.npmjs.com/package/@jmondi/oauth2-server)
+[![JSR](https://jsr.io/badges/@malang-dev/oauth2-server)](https://jsr.io/@malang-dev/oauth2-server)
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/malang-dev/ts-oauth2-server?style=flat-square)](https://github.com/malang-dev/ts-oauth2-server/releases/latest)
+[![GitHub Workflow Status]( https://img.shields.io/github/actions/workflow/status/malang-dev/ts-oauth2-server/build-and-test.yml?branch=main&style=flat-square)](https://github.com/malang-dev/ts-oauth2-server)
 
-`@jmondi/oauth2-server` is a standards compliant implementation of an OAuth 2.0 authorization server written in TypeScript. 
+`@malang-dev/oauth2-server` is a standards compliant implementation of an OAuth 2.0 authorization server written in TypeScript. Forked from [@jmondi/oauth2-server](https://github.com/malang-dev/ts-oauth2-server)
 
 Requires `node >= 18`. [Read the docs](https://tsoauth2server.com/)
 
@@ -38,27 +36,4 @@ The included adapters are just helper functions, any framework should be support
 Example implementations:
 
 - [Simple](./example)
-- [Advanced](https://github.com/jasonraimondi/ts-oauth2-server-example)
-
-### Security
-
-| Version         | Latest Version | Security Updates |
-|-----------------|----------------|------------------|
-| [3.x][version3] | :tada:         | :tada:           |
-| [2.x][version2] |                | :tada:           |
-
-[version3]: https://github.com/jasonraimondi/ts-oauth2-server/tree/main
-[version2]: https://github.com/jasonraimondi/ts-oauth2-server/tree/2.x
-
-## Migration Guide
-
-- [v1 to v2](https://github.com/jasonraimondi/ts-oauth2-server/releases/tag/v2.0.0)
-- [v2 to v3](https://tsoauth2server.com/migration/v2_to_v3.html) 
-
-## Thanks
-
-This project is inspired by the [PHP League's OAuth2 Server](https://oauth2.thephpleague.com/). Check out the [PHP League's other packages](https://thephpleague.com/#packages) for some other great PHP projects.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=jasonraimondi/ts-oauth2-server&type=Timeline)](https://star-history.com/#jasonraimondi/ts-oauth2-server&Timeline)
+- [Advanced](https://github.com/malang-dev/ts-oauth2-server-example)
